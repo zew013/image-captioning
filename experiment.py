@@ -1,9 +1,4 @@
-################################################################################
-# CSE 151B: Programming Assignment 3
-# Code snippet by Ajit Kumar, Savyasachi
-# Updated by Rohin, Yash, James
-# Fall 2022
-################################################################################
+
 
 import random
 import matplotlib.pyplot as plt
@@ -27,8 +22,7 @@ from model_factory import get_model
 
 # Class to encapsulate a neural experiment.
 # The boilerplate code to setup the experiment, log stats, checkpoints and plotting have been provided to you.
-# You only need to implement the main training logic of your experiment and implement train, val and test methods.
-# You are free to modify or restructure the code as per your convenience.
+
 class Experiment(object):
     def __init__(self, name):
         config_data = read_file_in_dir('./', name + '.json')

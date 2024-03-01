@@ -1,9 +1,4 @@
-################################################################################
-# CSE 151B: Programming Assignment 3
-# Code snippet by Ajit Kumar, Savyasachi
-# Updated by Rohin, Yash, James
-# Fall 2022
-################################################################################
+
 
 from experiment import Experiment
 import sys

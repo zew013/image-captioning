@@ -1,9 +1,4 @@
-################################################################################
-# CSE 151B: Programming Assignment 3
-# Code snippet by Ajit Kumar, Savyasachi
-# Updated by Rohin, Yash, James
-# Fall 2022
-################################################################################
+
 import torch
 from torchvision.models import resnet50
 import torch.nn as nn

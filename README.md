@@ -1,10 +1,7 @@
-# PA 3: Image Captioning
+CNNs and LSTMs with PyTorch for Image Captioning on COCO Dataset
 
-## Contributors
-Xiyan Shao, Yunxiang Chi, and Zelong Wang
 
-## Task
-In this project, we are going to implement a deep learning model to generate captions for images. 
+Implement a deep learning model to generate captions for images. 
 
 
 ## How to run

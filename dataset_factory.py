@@ -1,9 +1,4 @@
-################################################################################
-# CSE 151B: Programming Assignment 3
-# Code snippet by Ajit Kumar, Savyasachi
-# Updated by Rohin, Yash, James
-# Fall 2022
-################################################################################
+
 
 import csv, os
 from torch.utils.data import DataLoader
@@ -13,8 +8,6 @@ from vocab import load_vocab
 from coco_dataset import CocoDataset, collate_fn
 
 
-# Builds your datasets here based on the configuration.
-# You are not required to modify this code but you are allowed to.
 def get_datasets(config_data, get_transformed = False):
     images_root_dir = config_data['dataset']['images_root_dir']
     root_train = os.path.join(images_root_dir, 'train')

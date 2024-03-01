@@ -1,9 +1,4 @@
-################################################################################
-# CSE 151B: Programming Assignment 3
-# Code snippet by Ajit Kumar, Savyasachi
-# Updated by Rohin, Yash
-# Fall 2022
-################################################################################
+
 
 import torch
 import torchvision.transforms as transforms
